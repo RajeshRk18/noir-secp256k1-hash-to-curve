@@ -1,0 +1,9 @@
+[package]
+name = "secp256k1_hash_to_curve"
+type = "lib"
+authors = ["Rajesh Kanna"]
+compiler_version = ">=0.23.0"
+
+[dependencies]
+biguint = { tag = "v0.1.0", git = "https://github.com/RajeshRk18/noir_crypto.git", directory = "crates/biguint" }
+curves = { tag = "v0.1.0", git = "https://github.com/RajeshRk18/noir_crypto.git", directory = "crates/curves" }
